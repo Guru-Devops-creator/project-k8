@@ -45,7 +45,7 @@ metadata:
 spec:
   selector:        
     app: expense
-    tier: backend
+    tier: api
     project: expense
   ports: 
    - name: backend-port
