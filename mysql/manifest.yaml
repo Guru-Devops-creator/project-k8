@@ -24,4 +24,8 @@ spec:
       containers:
       - name: mysql 
         image: thanug828189/mysql:v1
-        
+    ports:
+     - name: mysql=port
+       protocl: TCP
+       port: 3306
+       targetPort: 3306    
