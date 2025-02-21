@@ -52,3 +52,10 @@ spec:
      protocol: TCP
      port: 8080
      targetPort: 8080
+
+# Install kubens for switching between cluster
+   # manual installtion on linux
+
+# sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
+# sudo ln -s /opt/kubectx/kubectx /usr/local/bin/kubectx
+# sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
